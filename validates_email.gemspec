@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<activerecord>, [">= 3.0.0.beta"])
       s.add_development_dependency(%q<activesupport>, [">= 3.0.0.beta"])
       s.add_development_dependency(%q<sqlite3-ruby>, [">= 1.3.1"])
